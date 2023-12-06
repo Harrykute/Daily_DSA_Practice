@@ -16,7 +16,6 @@ public class PerfectSquare {
         System.out.println("Perfect Squre Of "+number+" is "+square);
     }
     public static int perfectSquare(int n){ //this fuction returning perfect Square
-
         for (int i=1;i<n;i++) {
             if((i*i)==n){
                 return i;
